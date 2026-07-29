@@ -10,7 +10,6 @@ const About = lazy(() => import("./pages/About.jsx"));
 const Services = lazy(() => import("./pages/Services.jsx"));
 const Industries = lazy(() => import("./pages/Industries.jsx"));
 const Sustainability = lazy(() => import("./pages/Sustainability.jsx"));
-const Technology = lazy(() => import("./pages/Technology.jsx"));
 const Blog = lazy(() => import("./pages/Blog.jsx"));
 const Contact = lazy(() => import("./pages/Contact.jsx"));
 const NotFound = lazy(() => import("./pages/NotFound.jsx"));
@@ -28,7 +27,6 @@ export default function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/industries" element={<Industries />} />
             <Route path="/sustainability" element={<Sustainability />} />
-            <Route path="/technology" element={<Technology />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
