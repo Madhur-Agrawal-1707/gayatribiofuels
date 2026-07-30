@@ -74,7 +74,7 @@ export default function Footer() {
             <li>Inside Orchha Gate, Near Sultana Masjid, Gayatri Biofuels,Jhansi, Uttar Pradesh - 284002, India</li>
             <li>
               <a href="tel:+918601650628" className="transition-colors hover:text-white">
-                +91 8601650628
+                +91 8601650628, 9098852502
               </a>
             </li>
             <li>
