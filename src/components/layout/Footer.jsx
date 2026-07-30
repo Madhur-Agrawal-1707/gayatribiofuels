@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Droplets, Twitter, Linkedin, Instagram, Youtube, ArrowRight } from "lucide-react";
+import { Twitter, Linkedin, Instagram, Youtube, ArrowRight } from "lucide-react";
 import { navLinks } from "../../data/navigation.js";
 
 const socials = [
@@ -25,11 +25,12 @@ export default function Footer() {
     <footer className="bg-ink-900 text-white">
       <div className="container-px mx-auto grid max-w-7xl gap-12 py-16 md:grid-cols-2 lg:grid-cols-4">
         <div className="flex flex-col gap-4 lg:col-span-1">
-          <Link to="/" className="flex items-center gap-2">
-            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-grad-emerald">
-              <Droplets size={18} strokeWidth={2} />
-            </span>
-            <span className="font-display text-lg font-semibold">Gayatri Biofuels</span>
+          <Link to="/" className="inline-flex items-center" aria-label="Gayatri Biofuels home">
+            <img
+              src="/logo.png"
+              alt="Gayatri Biofuels"
+              className="h-24 w-24 object-contain"
+            />
           </Link>
           <p className="max-w-xs text-sm text-white/60">
             Turning waste oil into clean biofuel — certified collection, tracking, and

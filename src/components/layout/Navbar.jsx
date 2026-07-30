@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
-import { Menu, X, Droplets } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { navLinks } from "../../data/navigation.js";
 import useScrollPosition from "../../hooks/useScrollPosition.js";
 import Button from "../ui/Button.jsx";
@@ -20,11 +20,12 @@ export default function Navbar() {
         aria-label="Primary"
         className="container-px mx-auto flex h-20 max-w-7xl items-center justify-between"
       >
-        <NavLink to="/" className="flex items-center gap-2" aria-label="OilCycle home">
-          <span className="flex h-9 w-9 items-center justify-center rounded-full bg-grad-emerald text-white">
-            <Droplets size={18} strokeWidth={2} />
-          </span>
-          <span className="font-display text-lg font-semibold text-ink-900">Gayatri Biofuels</span>
+        <NavLink to="/" className="flex items-center" aria-label="Gayatri Biofuels home">
+          <img
+            src="/logo.png"
+            alt="Gayatri Biofuels"
+            className="h-16 w-16 object-contain"
+          />
         </NavLink>
 
         <ul className="hidden items-center gap-1 lg:flex">
