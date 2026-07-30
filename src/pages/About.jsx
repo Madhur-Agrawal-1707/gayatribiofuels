@@ -8,11 +8,11 @@ export default function AboutPage() {
     <>
       <Seo
         title="About Us"
-        description="Learn about OilCycle's mission, vision, and the milestones behind our waste oil recycling platform."
+        description="Learn about Gayatri Biofuels's mission, vision, and the milestones behind our waste oil recycling platform."
         path="/about"
       />
       <PageHero
-        eyebrow="About OilCycle"
+        eyebrow="About Gayatri Biofuels"
         title="Making sustainable disposal the easy choice"
         subtitle="We started with three trucks in Austin. Today we help hundreds of businesses turn waste oil into clean, reusable biofuel."
       />

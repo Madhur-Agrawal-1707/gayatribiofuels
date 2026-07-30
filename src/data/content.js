@@ -7,17 +7,17 @@ export const trustedByCategories = [
 ];
 
 export const stats = [
-  { value: 500, suffix: "+", label: "Partners" },
-  { value: 12000, suffix: "+", label: "Collections", format: "12K+" },
-  { value: 25, suffix: "M+", label: "Liters Recycled" },
+  { value: 50, suffix: "+", label: "Partners" },
+  { value: 2000, suffix: "+", label: "Collections", format: "2K+" },
+  { value: 1, suffix: "M+", label: "Liters Recycled" },
   { value: 100, suffix: "%", label: "Compliance" },
 ];
 
 export const impactStats = [
-  { icon: "CloudFog", value: 18500, suffix: " t", label: "CO₂ Saved" },
-  { icon: "Droplets", value: 25, suffix: "M+ L", label: "Oil Recycled" },
-  { icon: "Recycle", value: 9200, suffix: " t", label: "Waste Prevented" },
-  { icon: "TreePine", value: 310000, suffix: "+", label: "Trees Equivalent" },
+  { icon: "CloudFog", value: 850, suffix: " t", label: "CO₂ Saved" },
+  { icon: "Droplets", value: 1, suffix: "M+ L", label: "Oil Recycled" },
+  { icon: "Recycle", value: 90, suffix: " t", label: "Waste Prevented" },
+  { icon: "TreePine", value: 3100, suffix: "+", label: "Trees Equivalent" },
 ];
 
 export const processSteps = [
@@ -41,7 +41,7 @@ export const technologyFeatures = [
 export const testimonials = [
   {
     quote:
-      "OilCycle took an operational headache and turned it into one of the simplest parts of running our kitchens. The reporting alone has saved us hours every month.",
+      "Gayatri Biofuels took an operational headache and turned it into one of the simplest parts of running our kitchens. The reporting alone has saved us hours every month.",
     name: "Priya Nair",
     role: "Operations Director",
     company: "Harborline Hotels",
@@ -50,7 +50,7 @@ export const testimonials = [
   {
     quote:
       "We switched three factories over in a single quarter. Real-time tracking means we're never guessing where a pickup is or when it happened.",
-    name: "Daniel Ortiz",
+    name: "Vishal Rai",
     role: "Plant Manager",
     company: "Meridian Foods",
     rating: 5,
@@ -58,7 +58,7 @@ export const testimonials = [
   {
     quote:
       "Compliance reporting used to be a scramble before audits. Now it's a export away. It's changed how our whole team thinks about waste.",
-    name: "Grace Wallace",
+    name: "Manish Agrawal",
     role: "Sustainability Lead",
     company: "Northfield Group",
     rating: 4,
@@ -67,7 +67,7 @@ export const testimonials = [
 
 export const faqs = [
   {
-    question: "What types of businesses does OilCycle work with?",
+    question: "What types of businesses does Gayatri Biofuels work with?",
     answer:
       "We collect from restaurants, hotels, factories, airports, hospitals, and food manufacturers of any size, from single kitchens to multi-site operations.",
   },

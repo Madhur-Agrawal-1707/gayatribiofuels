@@ -95,7 +95,7 @@ export default function ContactSection() {
               </div>
               <div className="flex items-start gap-3">
                 <Phone className="mt-0.5 text-emerald-600" size={20} />
-                <a href="tel:+918601650628" className="text-sm text-ink-700/80 hover:text-ink-900">+91 8601650628</a>
+                <a href="tel:+918601650628,+919098852502"  className="text-sm text-ink-700/80 hover:text-ink-900">+91 8601650628, 9098852502</a>
               </div>
               <div className="flex items-start gap-3">
                 <Mail className="mt-0.5 text-emerald-600" size={20} />
