@@ -2,6 +2,7 @@ import { lazy, Suspense } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import SiteLayout from "./layouts/SiteLayout.jsx";
+import ScrollToTop from "./components/layout/ScrollToTop.jsx";
 import PageLoader from "./components/ui/PageLoader.jsx";
 
 // Route-level code splitting: each page is its own chunk, loaded on demand.
@@ -18,7 +19,9 @@ export default function App() {
   const location = useLocation();
 
   return (
-    <Suspense fallback={<PageLoader />}>
+    <>
+      <ScrollToTop />
+      <Suspense fallback={<PageLoader />}>
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
           <Route element={<SiteLayout />}>
@@ -34,5 +37,6 @@ export default function App() {
         </Routes>
       </AnimatePresence>
     </Suspense>
+    </>
   );
 }
